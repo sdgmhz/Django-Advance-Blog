@@ -40,9 +40,6 @@ class UserManager(BaseUserManager):
     
         
 
-
-
-
 class User(AbstractBaseUser, PermissionsMixin):
     '''
     Custom user model for our app
